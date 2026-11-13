@@ -1,0 +1,7 @@
+ENGINEERING PROJECT LOG
+Project Title: Smart Traffic Monitoring System
+Department: Civil and Electrical Engineering
+Location: Urban Highway Section A
+Start Date: 12-01-2025
+Project ID: STM-ENG-042
+Project Supervisor: Dr. Ahmed
