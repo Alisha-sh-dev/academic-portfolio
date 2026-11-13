@@ -1,0 +1,133 @@
+{
+  "users": {
+    "admin": {
+      "password": "admin123",
+      "role": "admin"
+    },
+    "host1": {
+      "password": "host123",
+      "role": "host"
+    },
+    "participant1": {
+      "password": "part123",
+      "role": "participant"
+    },
+    "Kareena": {
+      "password": "20241888",
+      "role": "participant"
+    },
+    "123": {
+      "password": "123",
+      "role": "participant"
+    }
+  },
+  "meetings": [
+    {
+      "id": 1,
+      "title": "Project Kickoff",
+      "host": "host1",
+      "date": "2025-04-10",
+      "time": "14:00",
+      "duration": "1.5 hours",
+      "agenda": "Discuss project goals and timeline",
+      "participants": [
+        "participant1",
+        "admin"
+      ],
+      "confirmed": [
+        "participant1"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "id": 2,
+      "title": "Weekly Team Sync",
+      "host": "admin",
+      "date": "2025-04-12",
+      "time": "10:00",
+      "duration": "1 hour",
+      "agenda": "Weekly progress update",
+      "participants": [
+        "host1",
+        "participant1"
+      ],
+      "confirmed": [
+        "host1"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "id": 3,
+      "title": "Client Presentation",
+      "host": "host1",
+      "date": "2025-04-05",
+      "time": "15:30",
+      "duration": "2 hours",
+      "agenda": "Present final deliverables to client",
+      "participants": [
+        "admin",
+        "participant1"
+      ],
+      "confirmed": [
+        "admin",
+        "participant1"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": 4,
+      "title": "Budget Review",
+      "host": "admin",
+      "date": "2025-04-15",
+      "time": "11:00",
+      "duration": "2 hours",
+      "agenda": "Review quarterly budget and expenses",
+      "participants": [
+        "host1",
+        "participant1"
+      ],
+      "confirmed": [
+        "host1"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "id": 5,
+      "title": "Training Session",
+      "host": "host1",
+      "date": "2025-04-08",
+      "time": "09:00",
+      "duration": "3 hours",
+      "agenda": "New software tools training",
+      "participants": [
+        "admin",
+        "participant1"
+      ],
+      "confirmed": [
+        "admin",
+        "participant1"
+      ],
+      "status": "completed"
+    },
+    {
+      "id": 6,
+      "title": "Urgent Meeting for project development",
+      "host": "admin",
+      "date": "2026-01-13",
+      "time": "12:30",
+      "duration": "30",
+      "agenda": "Its important for GUI development.",
+      "participants": [
+        "participant1"
+      ],
+      "confirmed": [],
+      "status": "upcoming"
+    }
+  ],
+  "notes": {
+    "1": "Kickoff went well. Team is aligned on goals.",
+    "3": "Client was satisfied with the presentation.",
+    "5": "Training completed successfully. All team members attended."
+  },
+  "backup_time": "2026-01-13 07:30:41"
+}
